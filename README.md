@@ -1,5 +1,5 @@
-# DevOps Practical Project
-Fortune Teller Application
+# Fortune Teller Application
+DevOps Practical Project
 
 ## Table of Contents
 - [Project Overview](#project-overview)
