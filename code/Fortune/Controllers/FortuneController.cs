@@ -11,8 +11,10 @@ namespace Fortune.Controllers
     [Route("[controller]")]
     public class FortuneController : ControllerBase
     {
+        public object Fortune { get; set; }
+
         //generate a random string
-       // private static readonly char[] Fortune = new[]
+        // private static readonly char[] Fortune = new[]
 
         [HttpGet]
         public ActionResult<string> Get()

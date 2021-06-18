@@ -17,16 +17,16 @@ namespace Merge.Controllers
         //fortune teller url: https://localhost:44360/
 
         private IConfiguration Configuration;
-        public MergeController(IConfiguration Configuration)
+        public MergeController(IConfiguration configuration)
         {
-            Configuration = Configuration;
+            Configuration = configuration;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
             // var luckynumberService = "https://localhost:44361/";
-            var luckynumberService = $"{Configuration["luckynumberServiceURL"]}/number";
+            var luckynumberService = $"{Configuration["luckynumberServiceURL"]}/luckynumber";
             var luckynumberResponse = await new HttpClient().GetStringAsync(luckynumberService);
 
 
@@ -34,7 +34,7 @@ namespace Merge.Controllers
             var fortuneService = $"{Configuration["fortuneServiceURL"]}/fortune";
             var fortuneResponse = await new HttpClient().GetStringAsync(fortuneService);
 
-            var mergedResponse = $"{luckynumberResponse}{fortuneResponse}";
+            var mergedResponse = $"{luckynumberResponse} {fortuneResponse}";
             return Ok(mergedResponse);
         }
     }
