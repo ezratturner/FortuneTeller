@@ -26,7 +26,7 @@ This section will discuss the timeline, trello board, tasks and risks for the pr
 
 
 Every use case is inclusive of generating random objects to return it to the user.
-<img width="482" alt="risks" src="https://user-images.githubusercontent.com/82107035/122689037-e00d9780-d217-11eb-92a0-811ba6d5016f.png">
+<img width="300" alt="use case" src="https://user-images.githubusercontent.com/82107035/122689037-e00d9780-d217-11eb-92a0-811ba6d5016f.png">
 
 
 ### Risk Assessment Matrix
