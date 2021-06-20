@@ -24,10 +24,7 @@ This section will discuss the timeline, trello board, tasks and risks for the pr
 ###  Trello Board
 <img width="959" alt="trello board" src="<img width="957" alt="Capture" src="https://user-images.githubusercontent.com/82107035/122688960-637ab900-d217-11eb-8f17-c5c92b670d65.PNG">
 
-
 Every use case is inclusive of generating random objects to return it to the user.
-<img width="200" alt="use case" src="https://user-images.githubusercontent.com/82107035/122689037-e00d9780-d217-11eb-92a0-811ba6d5016f.png">
-
 
 ### Risk Assessment Matrix
 <img width="482" alt="risks" src="https://user-images.githubusercontent.com/82107035/121039125-baf53f80-c7a8-11eb-8956-c4f01c3f8494.PNG">
@@ -40,7 +37,6 @@ Every use case is inclusive of generating random objects to return it to the use
 
 ## Development of Services
 The development of the application was done using C# for the backened and ASP.Net for the frontend. Below are screenshots of the final application.
-
 
 
 Service 1 - HTML
@@ -57,16 +53,20 @@ Testing Analysis: The testing has proved
 
 
 ## Deployment
-This app was deployed to Azure App Service
+The reason for moving into the cloud ...
+QA has helped by teaching 
+
+This app was deployed using Azure Functions and Azure App Service. These tools are... they were used because
 
 
+Describe each deployment steps
 
 ## Further Analysis
-Overall Risk Analysis: 
+Overall Risk Analysis: From revisting the risk analysis,
  
 Known Issues: 
 
-Future Implementation: 
+Future Implementation: Database - user information
 
 ## Licensing and Copyright
 © Ezra Turner, QA Limited, Avanade
