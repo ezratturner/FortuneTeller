@@ -19,7 +19,7 @@ namespace servicestests.LuckyNumberTests
             var luckynumberControllerResult = luckyNumberController.Get();
 
             Assert.NotNull(luckynumberControllerResult);
-            Assert.IsType<ActionResult<string>>(luckynumberControllerResult);
+            Assert.IsType<ActionResult<int>>(luckynumberControllerResult);
         }
 
     }

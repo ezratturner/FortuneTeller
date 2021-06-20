@@ -25,10 +25,15 @@ namespace servicestests.FortuneTests
              "Keep it up. Success is on the way", };
 
             //act
-           var testFortuneController = testfortune.Fortune;
+
+            //var testFortuneController = testfortune.Fortune;
+            var result = testfortune.Get();
 
             //assert
-           Assert.NotNull(testFortuneController);
+            Assert.NotNull(testfortune);
+          
+            //Assert.Contains(result.Value, (IEnumerable<string>)testfortune);
+            //Assert.NotNull(testFortuneController);
 
 
         }
