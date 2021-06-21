@@ -43,12 +43,15 @@ Service 1 - Front-end Service
 <img width="300" alt="html" src="https://user-images.githubusercontent.com/82107035/122752000-5944d300-d288-11eb-9ec5-a8e0af991054.PNG">
 
 Service 2 - Randomised number
+
 <img width="300" alt="luckynumber" src="https://user-images.githubusercontent.com/82107035/122752798-48489180-d289-11eb-9e30-5797973a9ee4.PNG">
 
 Service 3 - Randomised fortune
+
 <img width="300" alt="fortune" src="https://user-images.githubusercontent.com/82107035/122752804-4bdc1880-d289-11eb-8670-20e96471eb93.PNG">
 
 Service 4 - Merged Service
+
 <img width="300" alt="merge" src="https://user-images.githubusercontent.com/82107035/122752816-50a0cc80-d289-11eb-88f1-c2b20093b974.PNG">
 
 
