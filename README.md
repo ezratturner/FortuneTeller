@@ -22,11 +22,9 @@ The purpose of this project is to create a functional Create, Read, Update, Dele
 This section will discuss the timeline, trello board, tasks and risks for the project.
 
 ###  Trello Board
-<img width="959" alt="trello board" src="https://user-images.githubusercontent.com/82107035/121024165-e0c81780-c79b-11eb-9215-f2a154dd0dcd.PNG">
+<img width="957" alt="Capture" src="https://user-images.githubusercontent.com/82107035/122688960-637ab900-d217-11eb-8f17-c5c92b670d65.PNG">
 
 Every use case is inclusive of generating random objects to return it to the user.
-
-
 
 ### Risk Assessment Matrix
 <img width="482" alt="risks" src="https://user-images.githubusercontent.com/82107035/121039125-baf53f80-c7a8-11eb-8956-c4f01c3f8494.PNG">
@@ -40,32 +38,46 @@ Every use case is inclusive of generating random objects to return it to the use
 ## Development of Services
 The development of the application was done using C# for the backened and ASP.Net for the frontend. Below are screenshots of the final application.
 
+Service 1 - Front-end Service
 
+<img width="300" alt="html" src="https://user-images.githubusercontent.com/82107035/122752000-5944d300-d288-11eb-9ec5-a8e0af991054.PNG">
 
-Service 1 - HTML
+Service 2 - Randomised number
 
-Service 2 - Pre-defined rules
+<img width="300" alt="luckynumber" src="https://user-images.githubusercontent.com/82107035/122752798-48489180-d289-11eb-9e30-5797973a9ee4.PNG">
 
-Service 3 - Randomised letter
+Service 3 - Randomised fortune
 
-Service 4 - Randomised number
+<img width="300" alt="fortune" src="https://user-images.githubusercontent.com/82107035/122752804-4bdc1880-d289-11eb-8670-20e96471eb93.PNG">
+
+Service 4 - Merged Service
+
+<img width="300" alt="merge" src="https://user-images.githubusercontent.com/82107035/122752816-50a0cc80-d289-11eb-88f1-c2b20093b974.PNG">
+
 
 ## Testing
 
 Testing Analysis: The testing has proved
 
 
-## Deployment
-This app was deployed to Azure App Service
+## Deployment and Automation
+The reason for moving into the cloud ...
+QA has helped by teaching 
+
+This app was deployed using Azure Functions and Azure App Service. These tools are... they were used because
 
 
+Describe each deployment steps
+
+
+Terraform was used for automation 
 
 ## Further Analysis
-Overall Risk Analysis: 
+Overall Risk Analysis: From revisting the risk analysis,
  
 Known Issues: 
 
-Future Implementation: 
+Future Implementation: Database - user information
 
 ## Licensing and Copyright
 © Ezra Turner, QA Limited, Avanade
