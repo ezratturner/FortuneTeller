@@ -38,14 +38,15 @@ Every use case is inclusive of generating random objects to return it to the use
 ## Development of Services
 The development of the application was done using C# for the backened and ASP.Net for the frontend. Below are screenshots of the final application.
 
+Service 1 - Front-end Service
 
-Service 1 - HTML
+<img width="300" alt="Capture" src="https://user-images.githubusercontent.com/82107035/122752000-5944d300-d288-11eb-9ec5-a8e0af991054.PNG">
 
-Service 2 - Pre-defined rules
+Service 2 - Randomised number
 
-Service 3 - Randomised letter
+Service 3 - Randomised fortune
 
-Service 4 - Randomised number
+Service 4 - Merged Service
 
 ## Testing
 
