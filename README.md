@@ -22,7 +22,7 @@ The purpose of this project is to create a functional Create, Read, Update, Dele
 This section will discuss the timeline, trello board, tasks and risks for the project.
 
 ###  Trello Board
-<img width="959" alt="trello board" src="<img width="957" alt="Capture" src="https://user-images.githubusercontent.com/82107035/122688960-637ab900-d217-11eb-8f17-c5c92b670d65.PNG">
+<img width="957" alt="Capture" src="https://user-images.githubusercontent.com/82107035/122688960-637ab900-d217-11eb-8f17-c5c92b670d65.PNG">
 
 Every use case is inclusive of generating random objects to return it to the user.
 
