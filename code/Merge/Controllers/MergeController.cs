@@ -17,10 +17,24 @@ namespace Merge.Controllers
         //fortune teller url: https://localhost:44360/
 
         private IConfiguration Configuration;
+        private Microsoft.Extensions.Options.IOptions<global::servicestests.MergeTests.MergedService> @object;
+
         public MergeController(IConfiguration configuration)
         {
             Configuration = configuration;
         }
+
+        public MergeController(Microsoft.Extensions.Options.IOptions<global::servicestests.MergeTests.MergedService> @object)
+        {
+            this.@object = @object;
+        }
+
+        public MergeController(Microsoft.Extensions.Options.IOptions<global::servicestests.MergeTests.MergedService> object1)
+        {
+            Object = object1;
+        }
+
+        public Microsoft.Extensions.Options.IOptions<global::servicestests.MergeTests.MergedService> Object { get; }
 
         [HttpGet]
         public async Task<IActionResult> Get()

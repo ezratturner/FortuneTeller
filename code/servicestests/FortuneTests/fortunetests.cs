@@ -25,7 +25,6 @@ namespace servicestests.FortuneTests
              "Keep it up. Success is on the way", };
 
             //act
-
             //var testFortuneController = testfortune.Fortune;
             var result = testfortune.Get();
 
