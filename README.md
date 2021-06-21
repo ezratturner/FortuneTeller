@@ -52,7 +52,7 @@ Service 4 - Randomised number
 Testing Analysis: The testing has proved
 
 
-## Deployment
+## Deployment and Automation
 The reason for moving into the cloud ...
 QA has helped by teaching 
 
@@ -60,6 +60,9 @@ This app was deployed using Azure Functions and Azure App Service. These tools a
 
 
 Describe each deployment steps
+
+
+Terraform was used for automation 
 
 ## Further Analysis
 Overall Risk Analysis: From revisting the risk analysis,
