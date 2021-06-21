@@ -14,26 +14,26 @@ namespace servicestests.MergeTests
 {
    public class mergetests
     {
-      //  private MergedService mergedService = new MergedService()
-     //   {
-         //  luckyNumberServiceURL= "https://et-luckynumber.azurewebsites.net",
-         // FortuneServiceURL= "https://et-fortune.azurewebsites.net"
-       // };
+        private MergedService mergedService = new MergedService()
+        {
+         luckyNumberServiceURL= "https://et-luckynumber.azurewebsites.net",
+         FortuneServiceURL= "https://et-fortune.azurewebsites.net"
+        };
 
-        //[Fact]
-       // public async void GetTest()
-       // {
-         //   var options = new Mock<IOptions<MergedService>>();
-          //  options.Setup(x => x.Value).Returns(mergedService);
+       [Fact]
+        public async void GetTest()
+        {
+           var options = new Mock<IOptions<MergedService>>();
+            options.Setup(x => x.Value).Returns(mergedService);
 
-           // MergeController mergeController = new MergeController();
-          //  var mergeControllerResult = await mergeController.Get();
+            MergeController mergeController = new MergeController();
+            var mergeControllerResult = await mergeController.Get();
 
-         //   Assert.NotNull(mergeControllerResult);
-         //   Assert.IsType<OkObjectResult>(mergeControllerResult);
-      //  }
+           Assert.NotNull(mergeControllerResult);
+           Assert.IsType<OkObjectResult>(mergeControllerResult);
+        }
 
-    }
+   }
 }
 
 
