@@ -68,9 +68,6 @@ This app was deployed using Azure Functions and Azure App Service. These tools a
 
 
 Describe each deployment steps
-Used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
-
-
 
 
 Terraform was used for automation 
