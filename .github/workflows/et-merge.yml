@@ -1,14 +1,14 @@
-name: Build and deploy .NET Core application to Web App et-luckynumber
+name: Build and deploy .NET Core application to Web App et-merge
 on:
   push:
     branches:
     - master
 env:
-  AZURE_WEBAPP_NAME: et-luckynumber
-  AZURE_WEBAPP_PACKAGE_PATH: LuckyNumber\publish
+  AZURE_WEBAPP_NAME: et-merge
+  AZURE_WEBAPP_PACKAGE_PATH: Merge\publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: LuckyNumber
+  WORKING_DIRECTORY: Merge
 jobs:
   build:
     runs-on: windows-latest
@@ -30,7 +30,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.ET_LUCKYNUMBER_FFFF }}
+        publish-profile: ${{ secrets.ET_MERGE_FFFF }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
     - name: Publish Artifacts
       uses: actions/upload-artifact@v1.0.0
