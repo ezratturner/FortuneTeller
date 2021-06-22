@@ -12,27 +12,26 @@ using Microsoft.Extensions.Options;
 
 namespace servicestests.MergeTests
 {
-   public class mergetests
+    public class mergetests
     {
-        private MergedService mergedService = new MergedService()
+        private AppSettings appSettings = new AppSettings()
         {
-         luckyNumberServiceURL= "https://et-luckynumber.azurewebsites.net",
-         FortuneServiceURL= "https://et-fortune.azurewebsites.net"
+            luckyNumberServiceURL = "https://et-luckynumber.azurewebsites.net",
+            FortuneServiceURL = "https://et-fortune.azurewebsites.net"
         };
 
        [Fact]
         public async void GetTest()
         {
-           var options = new Mock<IOptions<MergedService>>();
-            options.Setup(x => x.Value).Returns(mergedService);
+           var options = new Mock<IOptions<AppSettings>>();
+           options.Setup(x => x.Value).Returns(appSettings);
 
-            MergeController mergeController = new MergeController();
+            MergeController mergeController = new MergeController(options.Object);
             var mergeControllerResult = await mergeController.Get();
 
            Assert.NotNull(mergeControllerResult);
            Assert.IsType<OkObjectResult>(mergeControllerResult);
         }
-
    }
 }
 
