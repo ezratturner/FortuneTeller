@@ -60,24 +60,27 @@ Service 4 - Merged Service
 Testing Analysis: The testing has proved
 
 
+Testing Report
+
+
 ## Deployment and Automation
 The reason for moving into the cloud ...
 QA has helped by teaching 
 
-This app was deployed using Azure Functions and Azure App Service. These tools are... they were used because
-
+Used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
 
 Describe each deployment steps
 
 
-Terraform was used for automation 
+Terraform was used for 
 
 ## Further Analysis
 Overall Risk Analysis: From revisting the risk analysis,
  
 Known Issues: 
 
-Future Implementation: Database - user information
+Future Implementations: Database - user information,
+Testing
 
 ## Licensing and Copyright
 © Ezra Turner, QA Limited, Avanade
