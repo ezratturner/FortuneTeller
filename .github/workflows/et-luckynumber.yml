@@ -5,10 +5,10 @@ on:
     - master
 env:
   AZURE_WEBAPP_NAME: et-luckynumber
-  AZURE_WEBAPP_PACKAGE_PATH: LuckyNumber\publish
+  AZURE_WEBAPP_PACKAGE_PATH: .code/LuckyNumber/publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: LuckyNumber
+  WORKING_DIRECTORY: ./code/LuckyNumber/
 jobs:
   build:
     runs-on: windows-latest
