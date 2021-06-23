@@ -60,14 +60,11 @@ This service is the most important service as it enables the HTML to interact wi
 
 ## Testing
 
-Testing Analysis: The testing has proved
-
-
+Testing Analysis: I tested each controller (fortune, luckynumber and merge) which has proved these services work, connect with one another and the app service and it has taught me different ways to solve problems.
 
 <img width="238" alt="tests" src="https://user-images.githubusercontent.com/82107035/123168640-2826f700-d470-11eb-878c-6f9cb0012d6a.PNG">
 
-
-Test Reports
+Test Report
 
 ![testreports](https://user-images.githubusercontent.com/82107035/123155818-792eef00-d460-11eb-9cf3-b5be5ca419d4.png)
 
@@ -75,23 +72,18 @@ Test Reports
 
 
 ## Deployment and Automation
-The reason for moving into the cloud ...
-QA has helped by teaching 
+Moving to the cloud has a variety of benefits. It is flexible, scalable, secure and disaster recovery will keep information safe - saving time and money. 
+QA has provided me with a solid foundation about cloud, deployment and automation and using tools such as Ansible, Terraform, Windows, Linux and Azure's core services to support these processes.
+
+4 different App Services Created in Azure.
 
 <img width="858" alt="app services" src="https://user-images.githubusercontent.com/82107035/123169211-e21e6300-d470-11eb-814e-54d2761b62da.PNG">
 
-
+I used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
 
 <img width="519" alt="fortunedeployment" src="https://user-images.githubusercontent.com/82107035/123155923-982d8100-d460-11eb-8b3a-c901c8d11bc8.PNG">
 
 <img width="622" alt="deployment" src="https://user-images.githubusercontent.com/82107035/123155906-906ddc80-d460-11eb-9450-d9b5b547ef4f.PNG">
-
-
-Used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
-
-Describe each deployment steps
-
-
 
 
 ## Further Analysis
