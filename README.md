@@ -16,7 +16,7 @@ DevOps Practical Project
  - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-The purpose of this project is to create a functional fortune teller application with four services by using appropriate tools, technologies and methodologies. This project is inclusive of effective project management practices, utilising C# and ASP.net for the full-stack development, testing functions and using Azure DevOps to create a pipeline to deploy the application to an app service.
+The purpose of this project is to create a fortune teller with a service-orientated architecture, composed of four services working together by using appropriate tools, technologies and methodologies. This project is inclusive of effective project management practices, utilising C# and ASP.net for full-stack development, testing functions and use GitHub Actions for creating a pipeline to be able to deploy the application to an app service.
 
 ## Project Management
 This section will discuss the timeline, trello board, tasks and risks for the project.
@@ -43,14 +43,17 @@ Service 1 - Front-end Service
 <img width="300" alt="html" src="https://user-images.githubusercontent.com/82107035/122752000-5944d300-d288-11eb-9ec5-a8e0af991054.PNG">
 
 Service 2 - Randomised number
+Generates a random lucky number between 1-100.
 
 <img width="300" alt="luckynumber" src="https://user-images.githubusercontent.com/82107035/122752798-48489180-d289-11eb-9e30-5797973a9ee4.PNG">
 
 Service 3 - Randomised fortune
+Generates a random fortune from an array.
 
 <img width="300" alt="fortune" src="https://user-images.githubusercontent.com/82107035/122752804-4bdc1880-d289-11eb-8670-20e96471eb93.PNG">
 
 Service 4 - Merged Service
+This service is the most important service as it enables the HTML to interact with the application and communicate with services 2 and 3.
 
 <img width="300" alt="merge" src="https://user-images.githubusercontent.com/82107035/122752816-50a0cc80-d289-11eb-88f1-c2b20093b974.PNG">
 
@@ -59,6 +62,9 @@ Service 4 - Merged Service
 
 Testing Analysis: The testing has proved
 
+
+
+<img width="238" alt="tests" src="https://user-images.githubusercontent.com/82107035/123168640-2826f700-d470-11eb-878c-6f9cb0012d6a.PNG">
 
 
 Test Reports
@@ -72,6 +78,10 @@ Test Reports
 The reason for moving into the cloud ...
 QA has helped by teaching 
 
+<img width="858" alt="app services" src="https://user-images.githubusercontent.com/82107035/123169211-e21e6300-d470-11eb-814e-54d2761b62da.PNG">
+
+
+
 <img width="519" alt="fortunedeployment" src="https://user-images.githubusercontent.com/82107035/123155923-982d8100-d460-11eb-8b3a-c901c8d11bc8.PNG">
 
 <img width="622" alt="deployment" src="https://user-images.githubusercontent.com/82107035/123155906-906ddc80-d460-11eb-9450-d9b5b547ef4f.PNG">
@@ -82,7 +92,6 @@ Used GitHub Actions to deploy my webapp - this is a workflow automation tool whi
 Describe each deployment steps
 
 
-Terraform was used for 
 
 
 ## Further Analysis
@@ -101,6 +110,6 @@ Testing
 
 ## Acknowledgements
 - Dara Oladapo
+- Victoria Sacre
 - Nick Pribyl
 - Ben Hesketh
-- Victoria Sacre
