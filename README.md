@@ -87,12 +87,11 @@ I used GitHub Actions to deploy my webapp - this is a workflow automation tool w
 
 
 ## Further Analysis
-Overall Risk Analysis: From revisting the risk analysis,
+Overall Risk Analysis: The highest likelihood was adding unimportant functionalities therefore my focus was to create the Minimum Viable Product to address all of the main requirements. Which resulted in accurate time estimates for addressing core tasks.
  
-Known Issues: 
+Known Issues: Testing the Merged Service (4) - I was originally getting errors because it was dependent on a functional app service URL. When reaching out for support about this error, I was told that it shouldn't be as it is not common practice. Inject an HttpClient Object would resolve this issue. Another issue was errors in the terraform script, I managed to create a resource in the cloud however I didn't manage to create my app services with terraform. I also started to learn terraform at the end of training once I had already created my apps in the portal.
 
-Future Implementations: Database - user information,
-Testing
+Future Implementations: Try to test this Merge Controller by using an HttpClient so that the test succeeds without being reliant on an app. Use terraform to create app services, attempt to use a container rather than deploy each individual app-service.
 
 ## Licensing and Copyright
 © Ezra Turner, QA Limited, Avanade
