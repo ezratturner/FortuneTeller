@@ -9,14 +9,14 @@ DevOps Practical Project
   * [Project Timeline](#project-timeline)
 - [Development of Services](#development-of-services)
 - [Testing](#testing)
-- [Deployment](#deployment)
+- [Deployment and Automation](#deployment-and-automation)
 - [Further Analysis](#further-analysis)
 - [Licensing and Copyright](#licensing-and-copyright)
  - [Contributors](#contributors)
  - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-The purpose of this project is to create a functional Create, Read, Update, Delete (CRUD) fortune teller application with four services by using appropriate tools, technologies and methodologies. Inclusive of effective project management practices, utilising a MySQL database, C# and ASP.net for the full-stack development, testing functions and using Azure DevOps to create a pipeline to deploy the application to an app service.
+The purpose of this project is to create a functional fortune teller application with four services by using appropriate tools, technologies and methodologies. This project is inclusive of effective project management practices, utilising C# and ASP.net for the full-stack development, testing functions and using Azure DevOps to create a pipeline to deploy the application to an app service.
 
 ## Project Management
 This section will discuss the timeline, trello board, tasks and risks for the project.
@@ -60,12 +60,22 @@ Service 4 - Merged Service
 Testing Analysis: The testing has proved
 
 
-Testing Report
+
+Test Reports
+
+![testreports](https://user-images.githubusercontent.com/82107035/123155818-792eef00-d460-11eb-9cf3-b5be5ca419d4.png)
+
+
 
 
 ## Deployment and Automation
 The reason for moving into the cloud ...
 QA has helped by teaching 
+
+<img width="519" alt="fortunedeployment" src="https://user-images.githubusercontent.com/82107035/123155923-982d8100-d460-11eb-8b3a-c901c8d11bc8.PNG">
+
+<img width="622" alt="deployment" src="https://user-images.githubusercontent.com/82107035/123155906-906ddc80-d460-11eb-9450-d9b5b547ef4f.PNG">
+
 
 Used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
 
@@ -73,6 +83,7 @@ Describe each deployment steps
 
 
 Terraform was used for 
+
 
 ## Further Analysis
 Overall Risk Analysis: From revisting the risk analysis,
