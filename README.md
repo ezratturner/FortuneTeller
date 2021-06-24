@@ -79,6 +79,8 @@ For the purpose of the project I used Windows, Terraform, and Azure's portal to 
 
 I used Visual Studio and GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
 
+<img width="594" alt="deployment" src="https://user-images.githubusercontent.com/82107035/123221470-e5443e00-d4c6-11eb-82ac-2aee4bef93a8.PNG">
+
 <img width="519" alt="fortunedeployment" src="https://user-images.githubusercontent.com/82107035/123155923-982d8100-d460-11eb-8b3a-c901c8d11bc8.PNG">
 
 <img width="622" alt="deployment" src="https://user-images.githubusercontent.com/82107035/123155906-906ddc80-d460-11eb-9450-d9b5b547ef4f.PNG">
