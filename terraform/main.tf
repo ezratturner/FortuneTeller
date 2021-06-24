@@ -2,58 +2,46 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "2.46.0"
+      version = "~> 2.46.0"
     }
-  }
-}
-
-variable "services" {
-  default = {
-    "et-luckynumber" = "et-luckynumber"
-    "et-fortune"     = "et-fortune"
-    "et-merge"       = "et-merge"
-    "et-frontend"    = "et-frontend"
   }
 }
 
 provider "azurerm" {
   features {}
 }
-
-resource "azurerm_resource_group" "main" {
-  # creating a rg name here
-  name     = "ett-tf-rg"
-  location = "uksouth"
-
+variable "services" {
+  default = {
+    "frontend"    = "et-frontend"
+    "fortune"     = "et-fortune"
+    "luckynumber" = "et-numbers"
+    "merge"       = "et-merge"
+  }
 }
 
-resource "azurerm_app_service_plan" "master" {
-  name     = "ezra-appservice"
-  location = azurerm_resource_group.rg.location
-  kind     = "Windows"
-  reserved = false
-
+resource "azurerm_resource_group" "rg" {
+  name     = "etproject"
+  location = "uksouth"
+  tags = {
+    "project" = "true"
+  }
+}
+resource "azurerm_app_service_plan" "app-service-plan" {
+  name                = "ezra-appservice"
   resource_group_name = azurerm_resource_group.rg.name
+  location            = azurerm_resource_group.rg.location
+  kind                = "Windows"
+  reserved            = true
   sku {
     tier = "Basic"
     size = "B1"
   }
 }
-
-resource "azurerm_app_service" "master" {
+resource "azurerm_app_service" "webapp" {
 
   for_each            = var.services
   name                = each.value
-  location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  app_service_plan_id = azurerm_app_service_plan.master.id
-
-  site_config {
-    dotnet_framework_version = "v5.0"
-  }
-
+  location            = azurerm_resource_group.rg.location
+  app_service_plan_id = azurerm_app_service_plan.app-service-plan.id
 }
-
-
-
-
