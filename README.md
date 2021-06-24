@@ -73,7 +73,7 @@ Test Report
 Moving to the cloud has a variety of benefits. It is flexible, scalable, secure and disaster recovery will keep information safe - saving time and money. 
 QA has provided me with a solid foundation about cloud, deployment and automation and using tools such as Ansible, Terraform, Windows, Linux and Azure's core services to support these processes.
 
-For the purpose of the project I used Windows, Terraform, and Azure's portal to create my resource groups and app services.
+For the purpose of the project I used Windows, Terraform, and Azure's portal to create and edit my resource groups and app services.
 
 <img width="858" alt="app services" src="https://user-images.githubusercontent.com/82107035/123169211-e21e6300-d470-11eb-814e-54d2761b62da.PNG">
 
