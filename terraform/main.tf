@@ -15,5 +15,5 @@ resource "azurerm_resource_group" "main" {
   # creating a rg name here
   name     = "ett-tf-rg"
   location = "uksouth"
-
+ 
 }
