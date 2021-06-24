@@ -60,7 +60,7 @@ This service is the most important service as it enables the HTML to interact wi
 
 ## Testing
 
-Testing Analysis: I tested each controller (fortune, luckynumber and merge) which has proved these services work, connect with one another and the app service and it has taught me different ways to solve problems.
+Testing Analysis: I tested each controller (fortune, luckynumber and merge) which has proved these services work, connect with one another and the cloud. Testing has taught me different ways to solve problems.
 
 <img width="238" alt="tests" src="https://user-images.githubusercontent.com/82107035/123168640-2826f700-d470-11eb-878c-6f9cb0012d6a.PNG">
 
@@ -69,17 +69,15 @@ Test Report
 ![testreports](https://user-images.githubusercontent.com/82107035/123155818-792eef00-d460-11eb-9cf3-b5be5ca419d4.png)
 
 
-
-
 ## Deployment and Automation
 Moving to the cloud has a variety of benefits. It is flexible, scalable, secure and disaster recovery will keep information safe - saving time and money. 
 QA has provided me with a solid foundation about cloud, deployment and automation and using tools such as Ansible, Terraform, Windows, Linux and Azure's core services to support these processes.
 
-4 different App Services Created in Azure.
+For the purpose of the project I used Windows, Terraform, and Azure's portal to create my resource groups and app services.
 
 <img width="858" alt="app services" src="https://user-images.githubusercontent.com/82107035/123169211-e21e6300-d470-11eb-814e-54d2761b62da.PNG">
 
-I used GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
+I used Visual Studio and GitHub Actions to deploy my webapp - this is a workflow automation tool which has CI/CD built into it. This means the the github user can trigger a workflow run if there's a new commit, branch or pull request.
 
 <img width="519" alt="fortunedeployment" src="https://user-images.githubusercontent.com/82107035/123155923-982d8100-d460-11eb-8b3a-c901c8d11bc8.PNG">
 
@@ -87,11 +85,11 @@ I used GitHub Actions to deploy my webapp - this is a workflow automation tool w
 
 
 ## Further Analysis
-Overall Risk Analysis: The highest likelihood was adding unimportant functionalities therefore my focus was to create the Minimum Viable Product to address all of the main requirements. Which resulted in accurate time estimates for addressing core tasks.
+Overall Risk Analysis: The highest likelihood was adding unimportant functionalities therefore my focus was to create the Minimum Viable Product to address all of the main requirements. This resulted in accurate time estimates for addressing core tasks.
  
-Known Issues: Testing the Merged Service (4) - I was originally getting errors because it was dependent on a functional app service URL. When reaching out for support about this error, I was told that it shouldn't be as it is not common practice. Inject an HttpClient Object would resolve this issue. Another issue was errors in the terraform script, I managed to create a resource in the cloud however I didn't manage to create my app services with terraform. I also started to learn terraform at the end of training once I had already created my apps in the portal.
+Known Issues: Testing the Merged Service (Service 4) - I was originally getting errors because it was dependent on a functional app service URL. When reaching out for support about this error, I was told that it shouldn't be as it is not common practice. Injecting an HttpClient Object would resolve this issue. 
 
-Future Implementations: Test the Merge Controller by using an HttpClient so that the test succeeds without being reliant on an app. Use terraform to create app services, attempt to use a container rather than deploy each individual app-service.
+Future Implementations: Test the Merge Controller by injecting an HttpClient so that the test succeeds without being reliant on an app. Use a docker container rather than deploying each individual app-service.
 
 ## Licensing and Copyright
 © Ezra Turner, QA Limited, Avanade
